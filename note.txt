@@ -1,0 +1,5 @@
+A Messenger Bot
+Use: Spring Boot + messenger4j lib 1.0.0 (newer than SpringBot)
+Do: use this to connect to FB App, receive callback from messenger, get userId, send message.
+Build: mvn clean install
+Run: mvn spring-boot:run

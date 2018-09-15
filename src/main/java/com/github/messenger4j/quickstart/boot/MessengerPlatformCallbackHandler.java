@@ -92,11 +92,14 @@ public class MessengerPlatformCallbackHandler {
 
     private static final Logger logger = LoggerFactory.getLogger(MessengerPlatformCallbackHandler.class);
 
+    public static final String USER_ID = "1244059599050515";
+
     private final Messenger messenger;
 
     @Autowired
     public MessengerPlatformCallbackHandler(final Messenger messenger) {
         this.messenger = messenger;
+        sendTextMessage(USER_ID, "New msg from BOT using messenger4j 1.0.0");
     }
 
     /**
